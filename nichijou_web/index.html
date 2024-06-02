@@ -1,0 +1,220 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <meta charset="UTF-8"></meta>
+        <title>日常動畫介紹</title>
+        <link rel="stylesheet" href="style.css">
+        <link rel="stylesheet" href="https://unpkg.com/aos@next/dist/aos.css" />
+        <script src="https://unpkg.com/aos@next/dist/aos.js"></script>
+        <link href="https://cdn.bootcss.com/flexslider/2.6.3/flexslider.min.css" rel="stylesheet">
+        <script src="https://cdn.bootcss.com/jquery/2.2.2/jquery.min.js"></script>
+        <script src="https://cdn.bootcss.com/flexslider/2.6.3/jquery.flexslider-min.js"></script>
+    </head>
+    <body>
+        <h1 style="text-align: center;">《日常》</h1>
+        <div class="intro">
+            <div class="intro1"  data-aos="fade-right"><img src="Nichijou_logo.png"  width="400"/></div>
+            <div class="intro2"  data-aos="fade-right">
+                <p style="font-size: 20px;">
+                    《日常》是由あらゐけいいち所創作，描寫高中生離奇日常生活的搞笑漫畫。作品中登場角色極富個性，
+                     他們不同的激動反應是作品的一大特色。於2006年12月號開始連載，2011由京阿尼動畫化。每一集皆由充滿笑料的短篇組成，
+                     有些短篇有標題，有些就叫「日常之…（數字）」，有些則是有重複標題的15秒超短篇（例如：句子文字語彙）。
+                     《日常》的轉場也極具特色，通常是日常兩個大字，或是每集不同的生活畫面，也可能是和短篇有關的物品特寫。
+                     作品內常反覆出現同一個點子，增強搞笑的效果，同時常在描寫動作時，詳細的畫出動作的每一個步驟
+                     <span class="black">（京阿尼最強戰鬥番）</span>。是個優秀的電波系搞笑作品，只可惜叫好不叫座，BD銷量慘澹。
+                </p>
+                <h2>"我們所經歷的每個平凡的日常，也許就是連續發生的奇蹟"</h2>
+                <br/>
+                <br/>
+                <audio src="nichijou_meigen.mp3" autoplay controls></audio>
+                <audio id="audioplayer" src="nichijouOP1.mp3" autoplay controls></audio>
+            </div>
+            <div class="intro4" data-aos="fade-left"><img src="school.jpg" width="840"></div>
+            <div class="intro3" data-aos="fade-left">
+                <h3>縣立時定高等學校（日語：県立時定高等学校）</h3>
+                <p class="intro4">
+                    一所「普通<span class="black">奇人匯聚</span>」的縣立高校，以「注重學生的自主性」作為教育方針，有騎羊來上學的學生。
+                    每年都會組織一次放氣球的活動。採用奇特的水手服作為女生制服、普通的立領制服作為男生制服。
+                </p>
+            </div>
+            <div calss="intro5" data-aos="fade-right"><img src="shinonome.jpg" width="840"></div>
+            <div class="intro6" data-aos="fade-right">
+                <h3>東雲研究所</h3>
+                <p>
+                    東雲研究所創建者未知，是博士<span class="black">（8歲）</span>和她所創造的機器人東雲名乃的居住地。
+                    雖然是研究所但沒什麼研究設施，家事由東雲名乃負責。
+                </p>
+            </div>
+        </div>
+        <header><h1 style="text-align: center;">動畫片段</h1></header>
+        <div class="flexslider size" style="margin: 20px 350px 20px 350px;"> 
+            <ul class="slides"> 
+                <li><img src="Yuuko_02.jfif"/></li>
+                <li><img src="Mio_02.jfif"/></li>
+                <li><img src="picture01.jfif"/></li> 
+            </ul> 
+        </div><br/><br/><br/>
+        <table>
+            <tr>
+                <td><iframe width="484" height="265" src="https://www.youtube.com/embed/ltisip_qyew?si=75-Et-cvI58K__T7" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe></td>
+                <td><iframe width="484" height="265" src="https://www.youtube.com/embed/wGi02YjDfQ8?si=sUFSVyNtuINYKS-y" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe></td>
+                <td><iframe width="484" height="265" src="https://www.youtube.com/embed/q7syegMdlhw?si=u_G9gQiN0Vyp5ezz" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe></td>
+            </tr>
+            <tr>
+                <td><h2 style="text-align: center;">Opening2</h2></td>
+                <td><h2 style="text-align: center;">日常</h2></td>
+                <td><h2 style="text-align: center;">句子文字語彙</h2></td>
+            </tr>
+        </table>
+        <div style="text-align: center;"><button id="buttonstop">停止/繼續播放音樂</button></div>
+        <h1 style="text-align: center;">角色</h1>
+        <!--
+        <div class="flexslider" style="margin: 20px 350px 20px 350px;"> 
+            <ul class="slides"> 
+                <li><a href="Yuuko.html"><img src="Yuuko_01.jpg"/></a></li>
+                <li><a href="Mio.html"><img src="Mio_01.jpg"/></a></li>
+                <li><a href="Mai.html"><img src="Mai_01.jpg"/></a></li> 
+                <li><a href="Nano.html"><img src="Nano_01.jpg"/></a></li>
+                <li><a href="Hakase.html"><img src="Hakase_01.jpg"/></a></li>
+                <li><a href="Sakamoto.html"><img src="Sakamoto_01.jpg"/></a></li> 
+            </ul> 
+        </div>
+        -->
+        <div class="img">
+            <div class="box" data-aos="flip-up">
+                <img src="Yuuko_01.jpg"/>
+                <div class="description">
+                    <h3>相生祐子</h3>
+                    <p>
+                        1年Q班，生日為12月26日，16歲，摩羯座，血型A型・RH(-)。<br/>
+                        幾乎不會讀書，寫作業都是借回來抄。
+                        雙手很靈活，曾用撲克牌疊塔疊了五層高，亦因此有很高的運動天賦。藝術觀點和美緒不同。具備寫詩的才能，能作出十分不錯的詩句或詩篇，並能利用日語的近音進行吐槽。但不具備畫圖的才能，畫出來的人都是慘不忍睹的長臉。
+                        基本上是吐槽體質，主要針對麻衣。因為活潑加上冒失，經常失控並把週遭的人捲進事件之中。家裡養著一隻白貓，名叫「無我」。
+                        動畫中第一個認為名乃是機器人，並在16話獲得證實。
+                        她的姓氏推測源自日本群馬縣桐生市相生町（前群馬縣山田郡相生村）。
+                        <span class="black">未來篇描寫她似乎是在海外發展，頭頂戴著特本和一身軍裝之下出場。</span>
+                    </p><!--
+                    <button id="btn1" onclick="handle_click1()">點我</button>
+                    -->
+                    <p>請輸入要對祐子說的話</p>
+                    <input type="text" id="answer1" size="50"/>
+                    <button id="btn1">發送</button>
+                </div>
+            </div>
+            <div class="box" data-aos="flip-up">
+                <img src="Mio_01.jpg"/>
+                <div class="description">
+                    <h3>長野原美緒</h3>
+                    <p>
+                        1年Q班，生日為3月10日，有常識的正常人。和祐子的關係特別的好。<br/>
+                        擅長繪畫，在筆記上有BL系的塗鴉，也有實際的漫畫完稿。家裡有繪畫用的標準器材和設備，但沒有個人電腦。早期十分介意別人看到自己的稿件，能為此犧牲一切。
+                        發惡起來可以比任何人來得瘋狂，對著輕微天然呆的姐姐最不留情面。平時體育能力不協調，但暴走時就會變得非常協調。
+                        連載時設定沒有參加社團，但在讀切版設定是參加話劇社。
+                        動畫第25話目擊幸治郎和美里挽著手遭遇巨大打擊，後接到名乃、祐子、麻衣三人送的「做一輩子朋友券」心情好轉。
+                        她的姓氏推測源自日本群馬縣吾妻郡長野原町。
+                        <span class="black">未來篇描寫她在擔任漫畫助手期間有所成長，最後成為職業漫畫家。</span>
+                    </p>
+                    <!--
+                    <button id="btn2" onclick="handle_click2()">點我</button>
+                    -->
+                    <p>請輸入要對美緒說的話</p>
+                    <input type="text" id="answer2" size="50"/>
+                    <button id="btn2">發送</button>
+                </div>
+            </div>
+            <div class="box" data-aos="flip-up">
+                <img src="Mai_01.jpg"/>
+                <div class="description">
+                    <h3>水上麻衣</h3>
+                    <p>
+                        1年Q班，生日為10月24日，眼睛只睜開一半。<br/>
+                        祐子和美緒的朋友，但喜歡用猛烈的耍呆，和無法理解的言行跟二人<span class="black">（尤其是祐子）</span>耍著玩。沉默的優等生，平日總是帶著一些秘密。
+                        喜歡從校長那裡得到的彌勒菩薩像，別人對其做出甚麼不好的事都會不高興。家裡養著一隻小白貓（名叫「チッチ」）和兩隻狗（大隻的叫「オグリキャップ」，小隻的叫「ピョン」）。畫的鯊魚很受博士歡迎。
+                        曾經拿走名乃身上的一根螺絲，後來在祐子拜訪東雲研究所時歸還。
+                        她的姓氏推測源自日本群馬縣利根郡水上町。
+                        中學時期曾留過短髮。<span class="black">未來篇描寫她從事保育士，又把頭髮剪短，外表則是從面無表情轉變成溫柔的大人。</span>
+                    </p>
+                    <!--
+                    <button id="btn3" onclick="handle_click3()">點我</button>
+                    -->
+                    <p>請輸入要對麻衣說的話</p>
+                    <input type="text" id="answer3" size="50"/>
+                    <button id="btn3">發送</button>
+                </div>
+            </div>
+            <div class="box" data-aos="flip-up">
+                <img src="Nano_01.jpg"/>
+                <div class="description">
+                    <h3>東雲名乃</h3>
+                    <p>
+                        1年Q班（動畫版為13話以後加入），生日為3月7日，女高中生機器人，<span class="black">實際年齡1歲</span>。
+                        有時會因為博士不認真聽自己的煩惱而抓狂，但都敗在博士泛著淚光的眼神之下。害怕蟲子（其中蟑螂是她極度害怕的，曾意外打到蚊子而昏倒。）和雷，對男男女女情愛之事十分在意。
+                        雖然是機器人卻具有痛覺，但只要把會痛的部分拔除就不會感覺到。雙手受到一點衝擊就會掉下來。
+                        十分嚮往成為普通的女生，卻被博士施以非人道改造。對自己是機器人而且背上裝著很大的發條感到自卑。後在動畫第26話中意識到了發條的重要。
+                        功能包括：發條旋轉後會令USB端子連接的左腳大拇指發射出去；右臂裝備能夠連發的豆子機關槍和隱藏式電子表；左臂有裝過竹輪、瑞士捲、還有泡好的茶的空格；兩手具備火箭飛拳功能，受到一點衝擊亦會就此掉下來；額頭具有鴿子時鐘和收納功能（曾裝過甜麵包）；頭頂是烤麵包機。
+                    </p>
+                    <!--<button id="btn4" onclick="handle_click4()">點我</button>
+                    -->
+                    <p>請輸入要對名乃說的話</p>
+                    <input type="text" id="answer4" size="50"/>
+                    <button id="btn4">發送</button>
+                </div>
+            </div>
+            <div class="box" data-aos="flip-up">
+                <img src="Hakase_01.jpg"/>
+                <div class="description">
+                    <h3>博士</h3>
+                    <p>
+                        自稱博士，8歲，生日為6月6日，除了睡覺時間以外都穿著白衣，名乃的製造者。
+                        本名不明，研究所的名稱為東雲研究所。整天都在家裡研究，研究題材亦是不明。很想得到芥川賞。
+                        認為機器人很可愛，頑固的拒絕將名乃變得更像人類。不擅長說謊。喜歡喝4.5牛奶（特濃）和吃蛋包飯，愛吃甜食，曾因為吃太多零食而吃不下飯。
+                        喜歡古老的搞笑風格。認為鯊魚很酷，房間裡貼著鯊魚海報。
+                        害怕小狗，認為小狗會咬人。曾因此對麻衣抱有警戒，後來在麻衣拜訪東雲研究所時和好。
+                        <span class="black">未來篇描寫（似乎）成為時定高中的學生。</span>
+                    </p>
+                    <!--
+                    <button id="btn5" onclick="handle_click5()">點我</button>
+                    -->
+                    <p>請輸入要對博士說的話</p>
+                    <input type="text" id="answer5" size="50"/>
+                    <button id="btn5">發送</button>
+                </div>
+            </div>
+            <div class="box" data-aos="flip-up">
+                <img src="Sakamoto_01.jpg"/>
+                <div class="description">
+                    <h3>阪本先生</h3>
+                    <p>
+                        博士在路邊撿到的黑貓，生日為4月17日，換算為人類年齡為20歲（實際年齡為1歲至1歲半）。<br/>
+                        戴上博士作的「能說話的項圈（しゃべれる首輪）」後變的能夠說人話。
+                        名稱的由來是撿到他的時候，箱子上寫著阪本製藥（日語：サカンポー）的緣故，但本人不是很中意這個名字。
+                        自稱兩人雙親代理，用大阪腔說話，對上下關係十分嚴格，不過看到橡皮擦和小蟲子時貓的本性會開始騷動，因此常被兩人耍著玩。
+                        現在居住在東雲家。動畫播出後追加設定前任飼主是中村老師所養，當時取名叫做「大將」。
+                    </p>
+                    <!--
+                    <button id="btn6" onclick="handle_click6()">點我</button>
+                    -->
+                    <p>請輸入要對阪本先生說的話</p>
+                    <input type="text" id="answer6" size="50"/>
+                    <button id="btn6">發送</button>
+                </div>
+            </div>
+        </div>
+        <!--
+        <div style="margin: 20px 110px 20px 110px;">
+            <span><a href="Yuuko.html"><img src="Yuuko.JPG" width="200"/></a></span>
+            <sapn><a href="Mio.html"><img src="Mio.JPG" width="200"/></sapn>
+            <span><a href="Mai.html"><img src="Mai.JPG" width="200"></a></span>
+            <span><a href="Nano.html"><img src="Nano.JPG" width="200"></a></span>
+            <span><a href="Hakase.html"><img src="Hakase.JPG" width="200"></a></span>
+            <span><a href="Sakamoto.html"><img src="Sakamoto.JPG" width="200"></a></span>
+        </div>
+        -->
+        <script src="script.js"></script>
+        <script>
+            AOS.init({
+                duration:3000
+            });
+        </script>
+    </body>
+</html>
